@@ -35,8 +35,6 @@ while again.lower() == "y":
             print("Too LOW!")
         elif guess > number:
             print("Too HIGH!")
-        elif guess - number <= 3:
-            print(("Very Close!"))
         else:
             print("CORRECT GUESS!",name)
             guessed = True
